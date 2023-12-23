@@ -1,6 +1,6 @@
 names = []
 
-with open("names.txt") as file:
+with open("File I-O/file names/names.txt") as file:
     for line in file:
         names.append(line.rstrip())
         
